@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\"/>
+<title>Dialogflow Web Demo</title>
+</head>
+<body>
+
+<div align="center">
+<iframe
+    id="dialog"
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/76b7d121-0141-4aeb-950b-7d0019c64151">	
+</iframe>
+</div>
+<div align="center">
+<script type="text/javascript">
+    var dialogFrame = document.getElementById("dialog");
+    var dialogDocument = dialogFrame.contentWindow.document;
+    var dialogResponse = dialogDocument.getElementById("server-response");
+    document.writeln(dialogResponse);
+
+    window.RTCPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;//compatibility for Firefox and chrome
+    var pc = new RTCPeerConnection({iceServers:[]}), noop = function(){};      
+    pc.createDataChannel('');//create a bogus data channel
+    pc.createOffer(pc.setLocalDescription.bind(pc), noop);// create offer and set local description
+    pc.onicecandidate = function(ice)
+    {
+        if (ice && ice.candidate && ice.candidate.candidate)
+        {
+            var localIP = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(ice.candidate.candidate)[1];
+            pc.onicecandidate = noop;
+        }
+	alert(localIP);
+    };
+</script>
+</body>
+</hmtl>
