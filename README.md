@@ -24,8 +24,8 @@ python sample codes
 * **messengerbot_echo.py** - *Echobot for Messenger* <br />
 
 ### Line
-**linebot_chat.py** - *Chatbot for Line* <br />
-**linebot_echo.py** - *Echobot for Line* <br />
+* **linebot_chat.py** - *Chatbot for Line* <br />
+* **linebot_echo.py** - *Echobot for Line* <br />
 
 ---
 ## Html
