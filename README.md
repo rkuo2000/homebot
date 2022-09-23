@@ -4,24 +4,24 @@ python sample codes
 ## Chatbot
 
 ### DNN chatbot
-* intents.json - chatting intents
-* chatbot_dnn.h5 - model file
-* data.pickle - data file
-* chatbot_dnn.py - train chatbot, then inference
+* **intents.json** - chatting intents
+* **chatbot_dnn.h5** - model file
+* **data.pickle** - data file
+* **chatbot_dnn.py** - train chatbot, then inference
 
-* chatbot_server.py - chatbot server using chatbot_dnn.h5
-* chatbot_client.py - calling to server to chat
+* **chatbot_server.py** - chatbot server using chatbot_dnn.h5
+* **chatbot_client.py** - calling to server to chat
 
 ---
 ### FaceBook
-* fbchat_basic.py - *login FB to find owner uid* <br />
-* fbchat_echobot.py - *messenger auto echo to message* <br />
-* fbchat_fetchid.py - *list all FB friend's id* <br />
-* fbchat_send.py - *send text, emoji, local image, remote image* <br />
+* **fbchat_basic.py** - *login FB to find owner uid* <br />
+* **fbchat_echobot.py** - *messenger auto echo to message* <br />
+* **fbchat_fetchid.py** - *list all FB friend's id* <br />
+* **fbchat_send.py** - *send text, emoji, local image, remote image* <br />
 
 ### Messenger
-* messengerbot_chat.py - *Chatbot for Messenger* <br />
-* messengerbot_echo.py - *Echobot for Messenger* <br />
+* **messengerbot_chat.py** - *Chatbot for Messenger* <br />
+* **messengerbot_echo.py** - *Echobot for Messenger* <br />
 
 ### Line
 **linebot_chat.py** - *Chatbot for Line* <br />
@@ -62,8 +62,8 @@ python sample codes
 * AHRS_madgwick.py
 
 ### I2C devices
-* rpi3_alexa_gpio.py    - *RPi3 as Alexa app with GPIO control*<br>
-* rpi3_i2c_HTU21DF.py   - *RPi3 I2C to read HTU21DF temperature and humidity* <br>
+* `rpi3_alexa_gpio.py`    - *RPi3 as Alexa app with GPIO control*<br>
+* `rpi3_i2c_HTU21DF.py`   - *RPi3 I2C to read HTU21DF temperature and humidity* <br>
 * rpi3_i2c_MLX90614.py  - *RPi3 I2C to read MLX90614 IR ranger* <br>
 * rpi3_i2c_VL53L0X.py   - *RPi3 I2C to read VL53L0X IR ranger* <br>
 * rpi3_mpu6050.py<br>
@@ -71,10 +71,10 @@ python sample codes
 
 ---
 ### RoboCar
-* rpi3_robocar_gpio.py**  - *RPi3 GPIO control a robot car* <br>
-* rpi3_robocar_webui.py** - *RPi3 WebUI to control a robot car* <br>
-* rpi3_robocar_webui_sensors.py* - *RPi3 WebUI to read sensors on a robot car* <br>
-* rpi3_uart.py          - *RPi3 uart in python*<br>
+* **rpi3_robocar_gpio.py**  - *RPi3 GPIO control a robot car* <br>
+* **rpi3_robocar_webui.py** - *RPi3 WebUI to control a robot car* <br>
+* **rpi3_robocar_webui_sensors.py* - *RPi3 WebUI to read sensors on a robot car* <br>
+* **rpi3_uart.py**          - *RPi3 uart in python*<br>
 
 ---
 ## Speech 
