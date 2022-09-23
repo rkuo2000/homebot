@@ -4,13 +4,13 @@ python sample codes
 ## Chatbot
 
 ### DNN chatbot
-* **intents.json** - chatting intents
-* **chatbot_dnn.h5** - model file
-* **data.pickle** - data file
-* **chatbot_dnn.py** - train chatbot, then inference
+* **intents.json** - *chatting intents*
+* **chatbot_dnn.h5** - *model file*
+* **data.pickle** - *data file*
+* **chatbot_dnn.py** - *train chatbot, then inference*
 
-* **chatbot_server.py** - chatbot server using chatbot_dnn.h5
-* **chatbot_client.py** - calling to server to chat
+* **chatbot_server.py** - *chatbot server using chatbot_dnn.h5*
+* **chatbot_client.py** - *calling to server to chat*
 
 ---
 ### FaceBook
