@@ -12,7 +12,6 @@ python sample codes
 * **chatbot_server.py** - *chatbot server using chatbot_dnn.h5*
 * **chatbot_client.py** - *calling to server to chat*
 
----
 ### FaceBook
 * **fbchat_basic.py** - *login FB to find owner uid* <br />
 * **fbchat_echobot.py** - *messenger auto echo to message* <br />
