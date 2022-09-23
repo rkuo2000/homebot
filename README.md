@@ -29,8 +29,8 @@ python sample codes
 
 ---
 ## Html
-* QRcode_generator.html - input text to generate QR code
-* robocar_dialogflow.html - webpage to connect to dialogflow chatbot
+* **QRcode_generator.html** - input text to generate QR code
+* **robocar_dialogflow.html** - webpage for connecting to dialogflow chatbot
 
 ---
 ## mp3 
@@ -55,25 +55,25 @@ python sample codes
 * uart.py
 
 ### sensors
-* vl53l0x.py - using vl53l0x_python.so
-* mpu9250_test.py
-* PID.py - PID controller
-* testPID.py - test PID control
-* AHRS_madgwick.py
+* **vl53l0x.py** - using vl53l0x_python.so
+* **mpu9250_test.py**
+* **PID.py** - PID controller example
+* **testPID.py** - test PID control
+* **AHRS_madgwick.py** - *AHRS algorith*
 
 ### I2C devices
-* `rpi3_alexa_gpio.py`    - *RPi3 as Alexa app with GPIO control*<br>
-* `rpi3_i2c_HTU21DF.py`   - *RPi3 I2C to read HTU21DF temperature and humidity* <br>
-* rpi3_i2c_MLX90614.py  - *RPi3 I2C to read MLX90614 IR ranger* <br>
-* rpi3_i2c_VL53L0X.py   - *RPi3 I2C to read VL53L0X IR ranger* <br>
-* rpi3_mpu6050.py<br>
-* rpi3_mpu9250.py<br>
+* **rpi3_alexa_gpio.py** - *RPi3 as Alexa app with GPIO control*
+* **rpi3_i2c_HTU21DF.py** - *RPi3 I2C to read HTU21DF temperature and humidity*
+* **rpi3_i2c_MLX90614.py** - *RPi3 I2C to read MLX90614 IR ranger*
+* **rpi3_i2c_VL53L0X.py**  - *RPi3 I2C to read VL53L0X IR ranger*
+* **rpi3_mpu6050.py**  - *read MPU6050 rawdata*
+* **rpi3_mpu9250.py**  - *read MPU9250 rawdata*
 
 ---
 ### RoboCar
 * **rpi3_robocar_gpio.py**  - *RPi3 GPIO control a robot car* <br>
 * **rpi3_robocar_webui.py** - *RPi3 WebUI to control a robot car* <br>
-* **rpi3_robocar_webui_sensors.py* - *RPi3 WebUI to read sensors on a robot car* <br>
+* **rpi3_robocar_webui_sensors.py** - *RPi3 WebUI to read sensors on a robot car* <br>
 * **rpi3_uart.py**          - *RPi3 uart in python*<br>
 
 ---
