@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NTOU EE1 to CC3302.kml</name>
+	<Style id="dir_step">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="dir_route">
+		<LineStyle>
+			<color>7fa00000</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Folder id="results">
+		<name>NTOU EE1 to CC3302</name>
+		<open>1</open>
+		<Style id="dir_step">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.gstatic.com/mapfiles/kml/paddle/pause.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text><![CDATA[<div>$[description]</div><div>$[geDirections]</div>]]></text>
+				<textColor>ff000000</textColor>
+				<displayMode>default</displayMode>
+			</BalloonStyle>
+		</Style>
+		<Placemark id="1.1">
+			<name>NTOU EE1</name>
+			<address>No. 67, Beining Road, Zhongzheng District</address>
+			<styleUrl>#dir_startpoint</styleUrl>
+			<Point>
+				<coordinates>121.7805679,25.1505193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2">
+			<name>NTOU CC3302</name>
+			<address>Recreation Building</address>
+			<styleUrl>#dir_endpoint</styleUrl>
+			<Point>
+				<coordinates>121.7771414,25.1501618,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder id="1.3">
+			<visibility>0</visibility>
+			<Style id="dir_route">
+				<LineStyle>
+					<color>7fa00000</color>
+					<colorMode>normal</colorMode>
+					<width>6</width>
+				</LineStyle>
+			</Style>
+			<Placemark id="1.3.2.2.2">
+				<name>Head east</name>
+				<visibility>0</visibility>
+				<description>Head east</description>
+				<LookAt>
+					<longitude>121.7805446</longitude>
+					<latitude>25.1504679</latitude>
+					<altitude>0</altitude>
+					<heading>112.32482</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>25.2504679</north>
+						<south>25.0504679</south>
+						<east>121.8805446</east>
+						<west>121.6805446</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>121.7805446,25.1504679,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2.2.3">
+				<name>Take the pedestrian tunnel</name>
+				<visibility>0</visibility>
+				<description>Take the pedestrian tunnel</description>
+				<LookAt>
+					<longitude>121.7808747</longitude>
+					<latitude>25.1503452</latitude>
+					<altitude>0</altitude>
+					<heading>112.3248</heading>
+					<tilt>45</tilt>
+					<range>360</range>
+				</LookAt>
+				<styleUrl>#dir_step</styleUrl>
+				<Region>
+					<LatLonAltBox>
+						<north>25.25034520000001</north>
+						<south>25.0503452</south>
+						<east>121.8808747</east>
+						<west>121.6808747</west>
+						<minAltitude>0</minAltitude>
+						<maxAltitude>0</maxAltitude>
+						<altitudeMode>absolute</altitudeMode>
+					</LatLonAltBox>
+					<Lod>
+						<minLodPixels>512</minLodPixels>
+						<maxLodPixels>-1</maxLodPixels>
+						<minFadeExtent>0</minFadeExtent>
+						<maxFadeExtent>0</maxFadeExtent>
+					</Lod>
+				</Region>
+				<Point>
+					<coordinates>121.7808747,25.1503452,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="1.3.2">
+				<name>Route</name>
+				<visibility>0</visibility>
+				<styleUrl>#dir_route</styleUrl>
+				<LineString>
+					<coordinates>
+						121.7805446,25.1504679,0 121.7805446,25.1504679,0 121.7808747,25.1503452,0 121.7808422,25.1503142,0 121.7808429,25.1503146,0 121.7808378,25.1503134,0 121.7808301,25.1503136,0 121.7808209,25.1503134,0 121.7808093,25.1503111,0 121.7807989,25.1503012,0 121.7806765,25.1501236,0 121.7806483,25.1500504,0 121.7806454,25.1500085,0 121.780645,25.1499704,0 121.7806513,25.14986920000001,0 121.7803099,25.1498863,0 121.7801324,25.14988170000001,0 121.7799124,25.1498604,0 121.7796758,25.1498189,0 121.7793821,25.1497797,0 121.7792393,25.1497756,0 121.779069,25.1497801,0 121.7788995,25.1497965,0 121.7786726,25.1498251,0 121.778459,25.1498802,0 121.7781709,25.1499609,0 121.7779832,25.1500233,0 121.7776557,25.15016290000001,0 121.7772659,25.1503192,0 121.7772267,25.150335,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
