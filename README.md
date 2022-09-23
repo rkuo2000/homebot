@@ -1,4 +1,5 @@
-# Homebot sample codes
+# Homebot 
+python sample codes
 
 ## Chatbot
 
