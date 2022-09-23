@@ -90,5 +90,8 @@ python sample codes
 * `$python3 dialogflow_gSR.py en` - *Dialogflow with SR*<br>
 * `$python3 dialogflow_gSTT.py en` - *Dialogflow with SR & TTS*<br>
 
-## parse KML (Google Earth pro as Mission Planner)
-`$python3 parse_kml.py test.kml`
+### parse KML (Google Earth pro as Mission Planner)
+* `$python3 parse_kml.py test.kml`<br>
+
+### Others
+* **vstock.py** - *download stock .csv file*
