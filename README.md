@@ -33,7 +33,7 @@
 ---
 ## mp3 
 .mp3 files<br>
-* `mpg123 Cat_Meowing0.mp3`<br>
+* $`mpg123 Cat_Meowing0.mp3`<br>
 
 ---
 ## Plot
