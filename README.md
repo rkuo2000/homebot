@@ -1,5 +1,4 @@
 # Homebot 
-python sample codes
 
 ## Chatbot
 
