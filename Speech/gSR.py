@@ -1,5 +1,5 @@
 ### pip install SpeechRecognition
-### python-m pip install pyaudio (for Windows)
+### python -m pip install pyaudio (for Windows)
 ### sudo apt install python3-pyaudio (for Ubuntu)
 
 ### brew install portaudio (for macOS)
