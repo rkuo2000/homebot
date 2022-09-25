@@ -80,20 +80,20 @@ python sample codes
 
 ### Google SR/TTS
 * Speech-to-Text (Speech Recognition)
-  - `python3 gSR.py en`        *(Speech to Text)*<br>
-  - `winpty python gSR.py en`  *(in Gitbash)*<br>
+  - $`python3 gSR.py en`        *(Speech to Text)*<br>
+  - $`winpty python gSR.py en`  *(in Gitbash)*<br>
   
 * Text-to-Speech
-  - `python3 gTTS.py hello en` *(outputr is gTTS.mp3)*<br>
-  - `winpty gTTS.py hello en` *(in Gitbash)*<br>
+  - $`python3 gTTS.py hello en` *(outputr is gTTS.mp3)*<br>
+  - $`winpty gTTS.py hello en` *(in Gitbash)*<br>
   
 ### Dialogflow
-* `$python3 dialogflow_test.py hello en` - *test Dialogflow agent*<br>
-* `$python3 dialogflow_gSR.py en` - *Dialogflow with SR*<br>
-* `$python3 dialogflow_gSTT.py en` - *Dialogflow with SR & TTS*<br>
+* $`python3 dialogflow_test.py hello en` - *test Dialogflow agent*<br>
+* $`python3 dialogflow_gSR.py en` - *Dialogflow with SR*<br>
+* $`python3 dialogflow_gSTT.py en` - *Dialogflow with SR & TTS*<br>
 
 ### parse KML (Google Earth pro as Mission Planner)
-* `$python3 parse_kml.py test.kml`<br>
+* $`python3 parse_kml.py test.kml`<br>
 
 ### Others
 * **vstock.py** - *download stock .csv file*
