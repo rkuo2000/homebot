@@ -78,12 +78,15 @@ python sample codes
 ---
 ## Speech 
 
-### Google TTS, SR, STT, Translate
-* `$python3 gTTS.py hello en` - *Text to Speech (output gTTS.mp3)*<br>
-* `$python3 gSR.py en` - *Speech to Text*<br>
-* `$python3 gSTT.py en` - *Speech to Text then Text to Speech*<br>
-* `$python3 gTranslator.py en fr` - *Speech Translation*<br>
-
+### Google SR/TTS
+* Speech-to-Text (Speech Recognition)
+  - `python3 gSR.py en`        *(Speech to Text)*<br>
+  - `winpty python gSR.py en`  *(in Gitbash)*<br>
+  
+* Text-to-Speech
+  - `python3 gTTS.py hello en` *(outputr is gTTS.mp3)*<br>
+  - `winpty gTTS.py hello en` *(in Gitbash)*<br>
+  
 ### Dialogflow
 * `$python3 dialogflow_test.py hello en` - *test Dialogflow agent*<br>
 * `$python3 dialogflow_gSR.py en` - *Dialogflow with SR*<br>
