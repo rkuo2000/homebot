@@ -75,6 +75,19 @@
 * **rpi3_uart.py**          - *RPi3 uart in python*<br>
 
 ---
+## Scraper (Web scraper)
+* read_json.py (read ex.json)
+* scrape_accuweather.py
+* scrape_anime.py
+* scrape_applenews.py
+* scrape_hsimuren.py
+* scrape_imdb.py
+* scrape_quotes.py
+* scrape_wikipedia.py
+* scrape_yahoo_finance.py
+* scrape_youtube.py
+
+---
 ## Speech 
 
 ### Google SR/TTS
