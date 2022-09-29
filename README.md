@@ -2,7 +2,7 @@
 
 ## Chatbot
 
-### DNN chatbot
+### DNN 
 * **intents.json** - *chatting intents*
 * **chatbot_dnn.h5** - *model file*
 * **data.pickle** - *data file*
