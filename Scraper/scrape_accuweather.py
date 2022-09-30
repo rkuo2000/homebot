@@ -1,3 +1,7 @@
+### pip install BeautifulSoup4
+### pip install html5lib
+### pip install selenium
+# download chromedriver.exe (https://chromedriver.chromium.org/downloads)
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
